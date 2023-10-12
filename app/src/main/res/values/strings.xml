@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">KeepMyList</string>
+    <string name="app_title">Keep My List</string>
+
+    <string name="user_email">Ingresar Correo Electrónico</string>
+    <string name="user_pass">Ingresar Contraseña</string>
+
+    <string name="button_login">Ingresar</string>
+    <string name="button_logout">Cerrar Sesión</string>
+    <string name="button_inv">Inventario</string>
+    <string name="button_list">Lista de Compras</string>
+    <string name="button_add">Añadir</string>
+    <string name="button_back">Atras</string>
+
+    <string name="menu_welcome">Bienvenido usuario</string>
+
+    <string name="item_name">Nombre del Producto</string>
 </resources>
