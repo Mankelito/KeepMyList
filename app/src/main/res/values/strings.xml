@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">KeepMyList</string>
     <string name="app_title">Keep My List</string>
+    <string name="app_author">LircayHub</string>
 
     <string name="user_email">Ingresar Correo Electrónico</string>
     <string name="user_pass">Ingresar Contraseña</string>
@@ -11,8 +12,10 @@
     <string name="button_list">Lista de Compras</string>
     <string name="button_add">Añadir</string>
     <string name="button_back">Atras</string>
+    <string name="button_stores">Tiendas</string>
 
     <string name="menu_welcome">Bienvenido usuario</string>
+    <string name="inventorytext">Inventario</string>
 
     <string name="item_name">Nombre del Producto</string>
 </resources>

@@ -5,31 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/lightgray"
-    tools:context=".InventoryActivity">
+    tools:context=".NearStoresActivity">
 
-    <ListView
-        android:id="@+id/itemList"
-        android:layout_width="410dp"
-        android:layout_height="686dp"
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="287dp"
+        android:layout_height="285dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.188"
+        app:srcCompat="@drawable/placeholdermap" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="141dp"
-        android:layout_height="51dp"
-        android:autoSizeTextType="uniform"
-        android:fontFamily="sans-serif-black"
-        android:text="@string/inventorytext"
-        app:layout_constraintBottom_toTopOf="@+id/itemList"
+    <ListView
+        android:id="@+id/storeList"
+        android:layout_width="430dp"
+        android:layout_height="393dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.575" />
+        app:layout_constraintVertical_bias="0.992" />
 
     <ImageButton
         android:id="@+id/backbutton"
@@ -41,9 +41,9 @@
         android:maxWidth="100dp"
         android:maxHeight="100dp"
         android:scaleType="fitXY"
-        app:layout_constraintBottom_toTopOf="@+id/itemList"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"

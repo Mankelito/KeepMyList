@@ -10,7 +10,7 @@
     <Button
         android:id="@+id/buttonlogout"
         android:layout_width="164dp"
-        android:layout_height="46dp"
+        android:layout_height="60dp"
         android:backgroundTint="@color/gray"
         android:text="@string/button_logout"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,7 +23,7 @@
     <Button
         android:id="@+id/buttoninventory"
         android:layout_width="157dp"
-        android:layout_height="47dp"
+        android:layout_height="60dp"
         android:backgroundTint="@color/red"
         android:text="@string/button_inv"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -34,8 +34,8 @@
 
     <Button
         android:id="@+id/buttonlist"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="159dp"
+        android:layout_height="60dp"
         android:backgroundTint="@color/red"
         android:text="@string/button_list"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.ListView
 
 
@@ -19,7 +20,8 @@ class ListActivity : AppCompatActivity() {
         val buttonAdd = findViewById<Button>(R.id.buttonadd)
         val myList = findViewById<ListView>(R.id.itemlist)
         val myEditText = findViewById<EditText>(R.id.ItemText)
-        val buttonback = findViewById<Button>(R.id.backbutton)
+        val buttonback = findViewById<ImageButton>(R.id.backButton)
+        var storeButton = findViewById<ImageButton>(R.id.storesButton)
 
         val arrayAdapter:ArrayAdapter<String>
 
@@ -33,9 +35,14 @@ class ListActivity : AppCompatActivity() {
             arrayAdapter.notifyDataSetChanged()
         }
 
-            buttonback.setOnClickListener {
-                finish()
-            }
+        storeButton.setOnClickListener{
+            val intentInventoryActivity = Intent(this, NearStoresActivity::class.java)
+            startActivity(intentInventoryActivity)
+        }
+
+        buttonback.setOnClickListener {
+            finish()
+        }
     }
 
 }

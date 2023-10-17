@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.53" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/emailText"
         android:layout_width="277dp"
         android:layout_height="63dp"
         android:layout_marginBottom="172dp"
@@ -36,7 +36,7 @@
         app:layout_constraintVertical_bias="0.35000002" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/passwordText"
         android:layout_width="275dp"
         android:layout_height="56dp"
         android:ems="10"
@@ -45,11 +45,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/emailText"
         app:layout_constraintVertical_bias="0.165" />
 
     <Button
-        android:id="@+id/logbutton"
+        android:id="@+id/logButton"
         android:layout_width="143dp"
         android:layout_height="48dp"
         android:backgroundTint="@color/red"
@@ -57,7 +57,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/passwordText" />
 
     <ImageView
         android:id="@+id/imageView3"
